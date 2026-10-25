@@ -1,0 +1,10 @@
+# Ignore raw datasets (too large for GitHub)
+nm000267_v1.0.3/
+NIRS_01-29/
+*.zip
+
+# Ignore local Python caches & processed checkpoints
+__pycache__/
+*.pyc
+outputs/checkpoints/*.pt
+processed/
